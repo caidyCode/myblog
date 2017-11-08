@@ -265,7 +265,7 @@
 	<!-- maven打成war包放到tomcat目录下，即可运行 -->
 	<build>
 		<finalName>myblog</finalName>
-		<defaultGoal>install</defaultGoal>
+		<defaultGoal>clean install</defaultGoal>
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
