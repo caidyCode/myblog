@@ -25,7 +25,7 @@ app.controller("SignManageController", function ($scope, $rootScope, SignManageS
         if ($scope.logining) {
             return false;
         }
-        $("#imgValidateCode").attr('src', '/foblog/manage/getCaptcha?temp=' + Math.random());
+        $("#imgValidateCode").attr('src', '/myblog/manage/getCaptcha?temp=' + Math.random());
     };
     $scope.signin = function () {
         $.ajax({
